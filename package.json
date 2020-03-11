@@ -4,7 +4,9 @@
   "description": "Calculator",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha"
+
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   },
   "dependencies": {
     "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
     "save-dev": "0.0.1-security"
   }
 }
